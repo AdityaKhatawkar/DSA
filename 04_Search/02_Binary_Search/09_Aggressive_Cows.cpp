@@ -1,3 +1,5 @@
+// https://www.naukri.com/code360/problems/aggressive-cows_1082559   
+
 #include<vector>
 #include<iostream>
 #include<algorithm>
