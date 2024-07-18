@@ -1,0 +1,9 @@
+When to use binary search?
+- When we can neglect the left or right part by finding a possible/not possible solution on a sorted answer space, we can use 
+binary search.
+
+
+the maximum number of pages allocated to a ninja is minimum
+minimum distance between any two of them is the maximum possible.
+
+Such sentences could mean that binary search can be used.
