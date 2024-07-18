@@ -1,0 +1,38 @@
+In selection sort, we select the smallest (or largest) element from the unsorted portion of the list and swap
+it with the first element of the unsorted part.This process is repeated
+
+We start by assuming that the first element itself is the minimum element, traverse through the rest of the array, if we find
+an element smaller than the currently assumed minimum element, we make that new element as the minimum element. After traversing 
+through the whole array, we swap the minimum element with the first element of unsorted part (index i) and move i forward. Repeating
+this process till i reaches n-2.
+
+
+ALGORITHM :
+
+SelectionSort(A[0..n-1])
+Sorts a given array using selection sort
+Input: An array A[0..n-1] of orderable elements
+Output: Array A[0...n-1] sorted in
+ascending order
+for i -> 0 to n - 2 do
+    min -> i
+    for j -> i + 1 to n - 1 do
+        if A[j] < A[min]
+            min -> j
+    swap A[i] and A[min]
+
+
+
+Space complexity : O(1)
+Because array is swapped in-place and no other memory is allocated except for variables.
+
+Time complexity : O(n^2) 
+Best case : O(n^2)
+Worst case : O(n^2)
+
+Use case: 
+- When array size is small.
+
+Stability:
+Selection Sort is not a stable sorting algorithm, because it swaps non-adjacent elements. The most pertinent example being:
+Given [2, 2, 1], the '2' values will not retain their initial order in the output sorted array.
