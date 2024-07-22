@@ -1,3 +1,8 @@
+// n&1 == 1 ----> n is odd number 
+// n >> 1 -------> n/2
+
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,0 +1,6 @@
+This is an algorithm used to find prime numbers upto any given limit. 
+
+1) Mark every number as prime.
+2) Mark every number coming in the table as non prime. 
+
+Time complexity: O(n*log(logn))
