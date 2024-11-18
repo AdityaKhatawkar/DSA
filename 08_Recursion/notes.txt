@@ -1,0 +1,11 @@
+Recursion can be used when a bigger problem is dependent on a smaller problem. 
+example: if we wanna find 2^3, then it's dependent on finding 2^2 first. that is 2^3 = 2 * 2^2. 
+so we can make the recursive ralation of 2^n = 2 * 2^n-1; 
+or in a function as: 
+    f(n) = 2 * f(n-1)
+
+
+Base case is the smallest possible answer that we know.
+It is mandatory to return in base case.
+It will tell us when to stop. 
+Will give segmentation fault if not used.
